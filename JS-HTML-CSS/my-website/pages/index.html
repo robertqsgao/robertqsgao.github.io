@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Robert Gao</title>
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <!-- Imported Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header-placeholder">
+            <!-- Include header component -->
+            
+        </div>
+        <main>
+            <!-- Main content -->
+            <h1 id="website-greeting">Hi, I'm Robert Gao!</h1>
+            <div style="text-align: center; margin: 50px;">
+                <img id="home-main-image" src="../assets/images/pepe-pray.jpg">
+            </div>
+            <p id="home-main-description">
+                Welcome to my personal website! I'm a UBC Mechanical Engineering student who just 
+                happened to like programming as a hobby and here we are. I love finding ways to
+                express myself to the world so I hope you enjoy my wonderful invention. You can
+                navigate using the top bar to go to my portfolio and find out more about what I do.
+            </p>
+        </main>
+        <div id="footer-placeholder">
+            <!-- Include footer component -->
+        </div>
+        <script src="assets/js/main.js"></script>
+        <script>
+            document.getElementById("header-placeholder").innerHTML = fetch('../components/header.html').then(response => response.text()).then(data => document.getElementById("header-placeholder").innerHTML = data);
+            document.getElementById("footer-placeholder").innerHTML = fetch('../components/footer.html').then(response => response.text()).then(data => document.getElementById("footer-placeholder").innerHTML = data);
+        </script>
+    </body>
+</html>
