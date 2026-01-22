@@ -1,0 +1,82 @@
+/* Layout */
+
+/* Components */
+
+#website-greeting {
+    /* Positioning */
+    text-align: center;
+    position: relative;
+    top: 100px;
+    /* Box Model */
+
+    /* Typography */
+    font-size: 32px;
+    font-family: Verdana;
+}
+
+#home-main-description {
+    /* Positioning */
+    text-align: justify;
+    /* Box Model */
+    padding-left: 11%;
+    padding-right: 11%;
+    /* Typography */
+    font-size: 20px;
+}
+
+main {
+    /* Box Model */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+body {
+    background-color: white;
+}
+
+
+img {
+    padding-top: 75px;
+}
+
+/* This is for header.html */
+.navigation {
+    /* Positioning */
+    text-align: center;
+    /* Box Model */
+    padding: 20px;
+    border-radius: 10px;
+    /* Typography */
+    background-color: lightblue;
+}
+
+a {
+    /* Positioning */
+    text-align: justify;
+    /* Box Model */
+    padding: 15px;
+    /* Typography */
+    font-weight: bold;
+    font-family: Roboto Condensed;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+/* This is for footer.html */
+.contact-information {
+    /* Positioning */
+    text-align: center;
+    /* Box Model */
+    padding: 20px;
+    border-radius: 10px;
+    /* Typography */
+    font-weight: bold;
+    font-family: Roboto Condensed;
+    font-size: 19px;
+    text-decoration: none;
+    background-color: lightblue;
+
+}
